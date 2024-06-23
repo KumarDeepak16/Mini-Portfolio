@@ -7,6 +7,7 @@ Welcome to the repository for my mini portfolio website! This project aims to pr
 - [Introduction](#introduction)
 - [Features](#features)
 - [Demo](#demo)
+- [Screenshot](#screenshot)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
@@ -28,6 +29,12 @@ This mini portfolio website is designed to give a quick and easy overview of my 
 ## Demo
 
 You can view a live demo of the website [here](https://kumardeepak16.github.io/Mini-Portfolio/).
+
+## Screenshot
+![screencapture-127-0-0-1-5500-Day8-index-html-2024-06-23-10_56_33](https://github.com/KumarDeepak16/Mini-Portfolio/assets/115630586/36163e03-2265-4275-a69d-e9ba1ef23f21)
+
+
+![Screenshot 2024-06-23 110328](https://github.com/KumarDeepak16/Mini-Portfolio/assets/115630586/65d7bdf1-9537-4d8e-b992-1f555db284c9)
 
 ## Installation
 

@@ -27,7 +27,7 @@ This mini portfolio website is designed to give a quick and easy overview of my 
 
 ## Demo
 
-You can view a live demo of the website [here](#).
+You can view a live demo of the website [here](https://kumardeepak16.github.io/Mini-Portfolio/).
 
 ## Installation
 

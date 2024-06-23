@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ebf4f6;
+}
+header {
+  /* width: 50vw; */
+  margin: 1.5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.personal-info,
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.personal-info img {
+  height: 13rem;
+  width: 13rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px dashed #071952;
+  margin-bottom: 1rem;
+}
+.personal-info .name {
+  font-size: 4vh;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+  text-align: center;
+  color: #071952;
+}
+.personal-info h3 {
+  font-size: 2vh;
+  letter-spacing: 3px;
+  font-weight: 200;
+  text-align: center;
+  color: #656565;
+}
+
+.social-links {
+  padding: 1rem;
+}
+.personal-info a {
+  text-decoration: none;
+  color: #444444;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+.contact-info {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #071952;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0.7rem;
+  border-radius: 10px;
+  border: 1px solid #071952;
+}
+.contact-info a:hover {
+  background-color: #071952;
+  color: white;
+}
+.resume button {
+  padding: 0.7rem;
+  margin: 0 1rem 0 0;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #071952;
+  color: white;
+  font-weight: 600;
+  transition: ease-in-out 0.2s;
+}
+.resume button:hover {
+  background-color: #ffffff;
+  color: #071952;
+  border: 2px solid #071952;
+  scale: 104%;
+}
+hr {
+  margin: auto;
+}
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-button {
+  padding: 0.3rem 0.4rem;
+  background-color: #d4d4d4;
+  display: inline-block;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.section-button button {
+  padding: 0.7rem 1.3rem;
+  outline: none;
+  border: 1px solid #00095c;
+  border-radius: 10px;
+  background-color: #dff5ff;
+  color: #004a6d;
+  font-weight: 600;
+  transition: ease-in-out 0.4s;
+}
+
+.section-button button:hover {
+  border: 1px solid #4c4c4c;
+  background-color: #c1ebff;
+  color: #004a6d;
+}
+.section-button button:focus{
+  background: #071952;
+  color: #fff;
+  transition: ease-in-out .6s;
+}
+.projects {
+  width: 90%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+.projects img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 30px;
+  border: 3px solid;
+  overflow: hidden;
+  cursor: pointer;
+}
+.projects img:hover {
+  scale: 110%;
+}
+.project-hide {
+  width: 100%;
+}
+.skill-hide {
+  width: 100%;
+  display: none;
+}
+.skills {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 20px 30px;
+  justify-content: space-between;
+  align-items:top;
+}
+.skills .col {
+  flex-wrap: wrap;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.col h1{
+  color: #071952;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.skill-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 2;
+}
+.skills p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  flex-basis: 100px;
+  height: 3rem;
+  background-color: #071952;
+  padding: 1rem;
+  flex-grow: 30;
+  color: white;
+  text-align: center;
+  margin: 0.2rem;
+  border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+  .projects {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skills {
+    width: 90%;
+  }
+  .skills .col {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skills {
+    width: 70%;
+  }
+  .skills .col {
+    width: 50%;
+  }
+}
